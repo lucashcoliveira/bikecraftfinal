@@ -1,7 +1,7 @@
 .depoimento {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background: var(--cor-p-1);
+  background: var(--cor-p1);
   overflow: hidden;
 }
 
@@ -30,7 +30,7 @@
 .depoimento-conteudo p::after {
   position: absolute;
   font-size: 5rem;
-  color: var(--cor-p-2);
+  color: var(--cor-p2);
 }
 .depoimento-conteudo p::before {
   content: " “ ";

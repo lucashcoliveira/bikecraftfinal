@@ -33,7 +33,7 @@
   display: inline-block;
   height: 8px;
   width: 12px;
-  background: var(--cor-p-1);
+  background: var(--cor-p1);
   margin-right: 8px;
   transition: width 0.2s;
 }
