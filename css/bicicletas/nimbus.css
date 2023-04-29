@@ -1,0 +1,166 @@
+.nimbus-bg {
+  background: var(--cor-11);
+}
+/* .nimbus{
+  width: 100%;
+  height: 100%;
+} */
+.bicicletas-fotos {
+  padding-left: -10px;
+  width: 50%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; */
+}
+.conteudo-geral {
+  padding: 60px 60px 0px 60px;
+  display: block;
+}
+.generica {
+  padding-top: 20px;
+  gap: 20px;
+  display: flex;
+}
+.descricao {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  float: right;
+  padding-bottom: 40px;
+}
+.descricao h1 {
+  max-width: 45ch;
+  padding-left: 30px;
+  padding-bottom: 32px;
+}
+.descricao a {
+  margin-left: 30px;
+}
+.descricao ul {
+  display: grid;
+  padding-left: 12px;
+  gap: 8px;
+}
+.descricao li {
+  display: flex;
+  align-items: center;
+  background: var(--cor-12);
+  padding: 4px 8px 4px 8px;
+  border-radius: 4px;
+}
+.informacoes {
+  display: grid;
+  padding-right: 100px;
+}
+.informacoes h2 {
+  padding-bottom: 12px;
+  margin-left: 30px;
+}
+.informacoes-conteudo {
+  background-color: var(--cor-12);
+  padding: 32px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+.informacoes-conteudo h3 {
+  padding-top: 4px;
+  padding-bottom: 8px;
+}
+
+.informacoes-conteudo p {
+  max-width: 30ch;
+  padding-bottom: 35px;
+}
+.ficha {
+  display: grid;
+}
+.ficha h2 {
+  padding-top: 40px;
+  padding-bottom: 12px;
+}
+.ficha-lista {
+  background-color: var(--cor-12);
+  border-radius: 5px;
+  padding: 32px;
+  margin-left: 30px;
+  margin-bottom: 60px;
+}
+.ficha-lista ul {
+  display: grid;
+}
+.ficha-lista li {
+  padding-bottom: 12px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  border-bottom: solid 2px var(--cor-11);
+}
+
+.escolha-bg {
+  background: var(--cor-0);
+}
+.escolha-bg h2 {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.escolha-bik {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 120px;
+}
+.escolha-bik h3 {
+  padding-top: 12px;
+  padding-bottom: 6px;
+}
+.escolha-bik h3::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  background: var(--cor-p1);
+  margin-right: 6px;
+}
+.escolha-bik a:hover h3::before {
+  width: 24px;
+  transition: 0.3s;
+}
+
+.escolha-bik img {
+  display: block;
+}
+.escolha-bik p {
+  padding-left: 20px;
+}
+.pedale-bg {
+  background: var(--cor-11);
+  box-shadow: inset 0px 100px var(--cor-0), inset 0px -180px var(--cor-12);
+}
+.pedale {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  justify-items: center;
+}
+.pedale-conteudo {
+  padding-top: 120px;
+  padding-bottom: 30px;
+}
+.pedale-conteudo h3 {
+  padding-top: 20px;
+  padding-bottom: 32px;
+}
+.pedale-conteudo p {
+  padding-bottom: 20px;
+}
+.pedale-conteudo a {
+  margin-bottom: 180px;
+}
+.pedale-image img {
+  /* padding-left: 1000px; */
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover;
+  object-position: right; */
+}
