@@ -8,7 +8,7 @@
 
 /* Utilidades */
 @import "./utilidades/componentes.css";
-
+@import "./utilidades/formulario.css";
 /* Home */
 @import "./home/introducao.css";
 @import "./home/tecnologia.css";
@@ -29,4 +29,7 @@
 /* Twemos e condições */
 @import "./termos/termos.css";
 
-/* Bicicletas*/
+/* contato*/
+@import "./contato/contato.css";
+@import "./contato/lojas.css";
+@import "./contato/contato.css";
