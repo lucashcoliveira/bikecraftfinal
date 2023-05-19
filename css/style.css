@@ -9,6 +9,7 @@
 /* Utilidades */
 @import "./utilidades/componentes.css";
 @import "./utilidades/formulario.css";
+@import "./utilidades/animacao.css";
 /* Home */
 @import "./home/introducao.css";
 @import "./home/tecnologia.css";
@@ -33,4 +34,6 @@
 @import "./contato/contato.css";
 
 /* Orçamento*/
-@import "./orcamento/orcamemtno.css";
+@import "./orcamento/orcamento.css";
+
+/* Animação */
