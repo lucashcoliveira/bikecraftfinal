@@ -21,23 +21,23 @@
 .vantagens-conteudo h2 {
   padding-bottom: 8px;
 }
-.perguntas {
+.js .perguntas {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.perguntas h2 {
+.js .perguntas h2 {
   padding-bottom: 90px;
 }
-.perguntas-frequentes div {
+.js .perguntas-frequentes div {
   padding: 20px;
 }
-.perguntas-frequentes div:nth-child(odd) {
+.js .perguntas-frequentes div:nth-child(odd) {
   background-color: var(--cor-1);
 }
-.perguntas-frequentes h3 {
+.js .perguntas-frequentes h3 {
   padding-bottom: 16px;
 }
-.perguntas-frequentes p {
+.js .perguntas-frequentes p {
   margin-left: 20px;
   max-width: 75ch;
 }
